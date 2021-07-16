@@ -1,0 +1,25 @@
+ <!DOCTYPE html>
+<html lang="fr">
+  <meta charset="UTF-8">
+  <title>Test de formulaire pour Bonjour Comment</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <body>
+
+   <h1>This is a Heading</h1>
+
+   <form action="https://bonjourcomment.herokuapp.com/sites/3/comments" method="POST">
+     <label for="email">Email:</label><br>
+     <input type="text" id="email" name="email"><br>
+
+     <label for="body">Body:</label><br>
+     <textarea id="body" name="body" rows="10" cols="30">
+     </textarea> 
+
+     <input type="hidden" id="page" name="page" value="/index.html"><br>
+     <input type="submit" value="Envoyer">
+   </form>
+
+
+  </body>
+</html> 
